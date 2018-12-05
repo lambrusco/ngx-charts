@@ -34,7 +34,7 @@ import { XAxisTicksComponent } from './x-axis-ticks.component';
         *ngIf="showLabel"
         [label]="labelText"
         [offset]="labelOffset"
-        [orient]="'bottom'"
+        [orient]="orient"
         [height]="dims.height"
         [width]="dims.width">
       </svg:g>
